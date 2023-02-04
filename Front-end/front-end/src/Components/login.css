@@ -1,0 +1,27 @@
+.login {
+    margin-right: 0;
+}
+
+body {
+    background: url("https://cdn.pixabay.com/photo/2021/11/18/11/35/attack-6806140_1280.png") ;
+    background-size: cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+.login-input {
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background: url("https://cdn.pixabay.com/photo/2017/03/21/02/00/user-2160923_1280.png") no-repeat center center fixed ;
+    background-size: cover;
+}
+.input {
+    font-size: 20px;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "voosh_assignment",
+  "version": "1.0.0",
+  "description": "Create a Node.js Api which register new user, we can add new orders, and get order details\r of that user.",
+  "main": "index.js",
+  "scripts": {
+    "start": " npx nodemon src index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manaskumar2/Voosh_Assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manaskumar2/Voosh_Assignment/issues"
+  },
+  "homepage": "https://github.com/Manaskumar2/Voosh_Assignment#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "moongose": "^1.0.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "start": "^5.1.0"
+  }
+}

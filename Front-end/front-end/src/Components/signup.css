@@ -1,0 +1,17 @@
+.signup {
+    margin-right: 0;
+}
+
+.signup-input {
+
+position:absolute;
+top:22%;
+left:50%;
+width:200px;
+transform: translate(-50%, -50%);
+border: 2px solid black;
+border-radius: 10px;
+padding: 20px;
+background: url("https://cdn.pixabay.com/photo/2017/03/21/02/00/user-2160923_1280.png") no-repeat center center fixed ;
+background-size: cover;
+}
